@@ -85,7 +85,7 @@ class HeartRateDetector(Detector):
             window_size = 1000
 
         if model is None:
-                self.model_path = "models/breathing/trained.h5"
+                self.model_path = "models/heartrate/trained.h5"
         else:
             self.model_path = model
 
